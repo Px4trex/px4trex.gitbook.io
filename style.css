@@ -177,7 +177,17 @@ header::before {
     justify-content: center;
     border: 2px dashed rgba(114, 137, 218, 0.3);
     transition: transform 0.3s, box-shadow 0.3s;
-    overflow: hidden;
+}
+
+.image-placeholder i {
+    font-size: 3rem;
+    color: #7289da;
+    margin-bottom: 1rem;
+}
+
+.image-placeholder p {
+    color: #7289da;
+    margin: 0;
 }
 
 .image-placeholder img {
@@ -189,16 +199,6 @@ header::before {
 .image-placeholder:hover {
     transform: scale(1.02);
     box-shadow: 0 10px 30px rgba(114, 137, 218, 0.1);
-}
-
-.image-placeholder i {
-    font-size: 3rem;
-    color: #7289da;
-    margin-bottom: 1rem;
-}
-
-.image-placeholder p {
-    color: #7289da;
 }
 
 .section-title {
